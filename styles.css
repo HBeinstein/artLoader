@@ -1,0 +1,33 @@
+/* body {
+  margin: 0;
+} */
+#overall-container {
+  background-image: url(IMG/background.jpeg);
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 8fr 1fr;
+  /* align-items: center; */
+  justify-content: center;
+  height: 100vh;
+}
+
+#frame{
+  width: 20em;
+  padding-bottom: 5em;
+}
+
+#button-container {
+  padding-top: 6em;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+}
+
+#show-art {
+  z-index: 10;
+  display: none;
+}
+
+#art-button {
+  margin-bottom: 10em;
+}
