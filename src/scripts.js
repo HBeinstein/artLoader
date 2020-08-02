@@ -4,11 +4,11 @@ import {doAFetch} from './services/art-call.js';
 
 $( document ).ready(function() {
   let artResult = doAFetch();
-  console.log(artResult.url);
   
     $("#art-button").on("click", function() {
+      $('#show-art').empty();
       console.log("sup")
-      $('#show-art').append(`<img>${artResult}</img>`);
+      $('#show-art').append(`<img src="${artResult[0]}">`);
       $('#show-art').show();
     });
 });

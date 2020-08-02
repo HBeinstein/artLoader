@@ -9,6 +9,6 @@ export function doAFetch() {
     console.error(error);
   })
   .then(function(data){
-    return data.images[0];
+    return data.images;
   });
 } 
