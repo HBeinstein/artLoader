@@ -1,11 +1,11 @@
-# _ArtLoader_
+# _ArtLoader🖼🖼🖼_
 
 #### _A virtual museum using Cooper Hewitt's "Get Random" API, 8/2/20_
 
 #### By _**Hannah Beinstein**_
 
 ## Description
-ArtLoader is an app 
+ArtLoader is a web app I developed to practice making API calls. The program utilizes the Cooper Hewitt Museum's free API, which, when called, returns a random art object from their collection. In the app, when a user clicks the "get new artwork" button, and API call is made, and the artwork that is returned is displayed to the screen. If they'd like, the user can then fetch another artwork by clicking the button again.
 
 ## Setup/Installation Requirements
 
