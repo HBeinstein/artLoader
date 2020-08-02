@@ -3,12 +3,17 @@ import './styles.css';
 import {doAFetch} from './services/art-call.js';
 
 $( document ).ready(function() {
-  let artResult = doAFetch();
-  
-    $("#art-button").on("click", function() {
+  $("#art-button").on("click", function() {
+    let artResult = doAFetch();
+
+    let a = Promise.resolve(artResult)
+
+    a.then(function(art){
       $('#show-art').empty();
-      console.log("sup")
-      $('#show-art').append(`<img src="${artResult[0]}">`);
+
+
+      $('#show-art').append(`<img src="${art.object.images[0].b.url}">`);
       $('#show-art').show();
     });
+  })
 });

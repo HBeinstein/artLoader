@@ -3,12 +3,14 @@ export function doAFetch() {
   .then(function(response) {
     if(!response.ok){
       throw Error(response.statusText)
-    } return response.json()
+    } console.log("ok"); 
+    return response.json()
   })
   .catch(function(error) {
     console.error(error);
   })
   .then(function(data){
-    return data.images;
+    console.log("returning data")
+    return data;
   });
 } 
