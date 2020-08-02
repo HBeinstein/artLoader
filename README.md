@@ -1,4 +1,4 @@
-# _ArtLoader🖼🖼🖼_
+# _ArtLoader 🖼_
 
 #### _A virtual museum using Cooper Hewitt's "Get Random" API, 8/2/20_
 
