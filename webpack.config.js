@@ -7,9 +7,9 @@ const Dotenv = require('dotenv-webpack');
 module.exports = {
 entry: './src/scripts.js',
 output: {
-  filename: 'bundle.js',
+  filename: 'main.js',
   path: path.resolve(__dirname, 'dist'),
-  publicPath: "/ArtLoader/"
+  // publicPath: "/ArtLoader/"
 },
 devtool: 'eval-source-map',
 devServer: {

@@ -5,7 +5,7 @@
 #### By _**Hannah Beinstein**_
 
 ## Description
-ArtLoader is a web app I developed to practice making API calls. The program utilizes the Cooper Hewitt Museum's free API, which, when called, returns a random art object from their collection. In the app, when a user clicks the "get new artwork" button, and API call is made, and the artwork that is returned is displayed to the screen. If they'd like, the user can then fetch another artwork by clicking the button again. You can view the project live on gh-pages at: https://hbeinstein.github.io/artLoader/src/.
+ArtLoader is a web app I developed to practice making API calls. The program utilizes the Cooper Hewitt Museum's free API, which, when called, returns a random art object from their collection. In the app, when a user clicks the "get new artwork" button, and API call is made, and the artwork that is returned is displayed to the screen. If they'd like, the user can then fetch another artwork by clicking the button again. You can view the project live on gh-pages at: https://hbeinstein.github.io/artLoader/.
 
 ## Setup/Installation Requirements
 

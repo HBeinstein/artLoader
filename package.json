@@ -2,18 +2,19 @@
   "name": "ArtLoader",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "scripts.js",
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build & webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
     "test": "jest",
     "debug": "node --inspect node_modules/.bin/jest --runInBand",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://hbeinstein.github.io/artLoader",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",

@@ -10,8 +10,6 @@ $( document ).ready(function() {
 
     a.then(function(art){
       $('#show-art').empty();
-
-
       $('#show-art').append(`<img src="${art.object.images[0].b.url}">`);
       $('#show-art').show();
     });
