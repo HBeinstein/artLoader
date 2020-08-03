@@ -27,6 +27,7 @@ Software Requirements
 ## Known Bugs
 
 _Hoping to add a loader in the future to minimize white background "flashing" between API calls._
+_Planning to constrain imgs displayed by size to prevent distortion of certain imgs that don't fit frame proportions_
 
 ## Support and contact details
 
